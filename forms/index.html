@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--styles-->
+      <link rel="stylesheet" href="./css/styles.css">
+      <!--bootstrap-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+      <title>Formularios</title>
+</head>
+
+<body>
+
+    <div class="container -md">
+        <form form method="POST" action="./fin.html" onsubmit="return validate()" name="vform" id="formulario">
+            
+            <div class="form-group">
+              <label for="nombre">Username</label>
+              <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Username">
+              <p id="demo"></p>
+            </div>
+            <div class="form-group" >
+                <label for="eMail">Email address</label>
+                <input type="email" class="form-control" name="eMail" id="eMail" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <p id="demo1"></p>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Tel&eacute;fono</label>
+                <input type="tel" class="form-control" name="telefono" id="telefono" placeholder="Teléfono">
+                <p id="demo2"></p>
+              </div>
+              <div class="form-group" >
+                <label for="secreto">Password</label>
+                <input type="password" class="form-control" name="secreto" id="secreto" aria-describedby="passHelp" placeholder="Enter Password">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+                <p id="demo3"></p>
+              </div>
+              <div class="form-group">
+                <label for="secreto1">Confirme su Password</label>
+                <input type="password" class="form-control" name="secreto1" id="secreto1" placeholder="Confirm Password">
+                <p id="demo4"></p>
+              </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        
+    </div>
+
+
+
+
+    <script src="functions.js"></script>
+</body>
+
+</html>

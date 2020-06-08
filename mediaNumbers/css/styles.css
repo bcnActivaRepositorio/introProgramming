@@ -1,0 +1,30 @@
+body{
+margin: 0 auto;
+padding: 0;
+background-color: rgb(230, 230, 230) !important;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+    
+}
+.card{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 5em;
+}
+#boton{
+    margin: 0 auto;
+}
+.btn{
+    color: whitesmoke !important;
+}
+#demo{
+    text-align: center;
+    padding: 1em 1em 0 1em;
+}
+#modo{
+    text-align: center;
+    padding: 1em 1em 0 1em;
+}

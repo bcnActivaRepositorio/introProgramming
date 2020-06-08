@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Robert Garcia">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>How are the strings? or why I get frustated for not reading the problems properly</title>
+</head>
+
+<body>
+    <div class="container-md">
+        <div class="jumbotron">
+            <h1 class="display-4">Place a sentence!</h1>
+            <p class="lead">Uppercase? Lowercase? Both?!</p>
+            <hr class="my-4">
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                </div>
+                <input type="text" class="form-control" id="word1" placeholder="Your sentence here" aria-label="word1"
+                    aria-describedby="addon-wrapping">
+            </div>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" id="boton1" onclick="checkStr()" role="button">Upper vs Lower</a>
+            </p>
+            <div class="d-print-none" id="demo"></div>
+            <div class="d-print-none" id="demo1"></div>
+            <div class="d-print-none" id="demo2"></div>
+
+        </div>
+
+    </div>
+    <script src="./functions.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--styles-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Geometrías</title>
+</head>
+
+<body>
+
+
+    <div class="container -md">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/click.png" class="card-img-top" alt="logo">
+            <div class="card-body">
+                <h5 class="card-title">Geometr&iacute;as</h5>
+                <p class="card-text">&Aacute;reas superfies</p>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                    </div>
+                    <input type="number" class="form-control" id="num1" placeholder="Space Number" aria-label="num1"
+                        aria-describedby="addon-wrapping">
+                </div><br>
+                <div class="input-group flex-nowrap">
+                    <div id="boton">
+                        <a class="btn btn-primary" onclick="square(number())">Cuadrado</a>
+                    </div>
+                </div><br />
+                <div class="input-group flex-nowrap">
+
+                    <div id="boton">
+                        <a class="btn btn-primary" onclick="circle(number())">C&iacute;rculo</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <p id="demo"></p>
+
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/click.png" class="card-img-top" alt="logo">
+            <div class="card-body">
+                <h5 class="card-title">Geometr&iacute;as</h5>
+                <p class="card-text">&Aacute;reas superfies</p>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                    </div>
+                    <input type="number" class="form-control" id="num2" placeholder="Base" aria-label="num1"
+                        aria-describedby="addon-wrapping">
+                </div><br>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                    </div>
+                    <input type="number" class="form-control" id="num3" placeholder="Altura" aria-label="num1"
+                        aria-describedby="addon-wrapping">
+                </div><br>
+                <div class="input-group flex-nowrap">
+                    <div id="boton">
+                        <a class="btn btn-primary" onclick="triangle()">Tri&aacute;ngulo</a>
+                    </div>
+                </div>
+            </div>
+
+            <p id="demo2"></p>
+
+
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/click.png" class="card-img-top" alt="logo">
+            <div class="card-body">
+                <h5 class="card-title">Geometr&iacute;as</h5>
+                <p class="card-text">&Aacute;reas superfies</p>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                    </div>
+                    <input type="number" class="form-control" id="num4" placeholder="Lado + corto" aria-label="num1"
+                        aria-describedby="addon-wrapping">
+                </div><br>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                    </div>
+                    <input type="number" class="form-control" id="num5" placeholder="Lado + largo" aria-label="num2"
+                        aria-describedby="addon-wrapping">
+                </div><br />
+                <div class="input-group flex-nowrap">
+                    <div id="boton">
+                        <a class="btn btn-primary" onclick="rectangle()">Rect&aacute;ngulo</a>
+                    </div>
+                </div>
+            </div>
+
+            <p id="demo3"></p>
+
+            <div class="clearfix"></div>
+        </div>
+
+
+        <script src="functions.js"></script>
+</body>
+
+</html>
