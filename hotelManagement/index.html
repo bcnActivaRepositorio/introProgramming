@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Robert Garcia">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Hotel Management</title>
+</head>
+
+<body>
+    <div class="container-md">
+        <div class="jumbotron">
+            <h1 class="display-4">Hoteles</h1>
+            <p class="lead">Creación de objetos</p>
+            <hr class="my-4">
+           <div class="input-group flex-nowrap">
+                 <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control" id="word1" placeholder="Nombre Hotel" aria-label="word1"
+                    aria-describedby="addon-wrapping">
+            </div>
+            <p></p>
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">
+                        <i class="fa fa-suitcase" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <input type="number" class="form-control" id="num1" placeholder="Número de habitaciones" aria-label="num1"
+                    aria-describedby="addon-wrapping">
+            </div>
+            <p></p>
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">
+                        <i class="fa fa-suitcase" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <input type="number" class="form-control" id="num2" placeholder="Número de plantas" aria-label="num2"
+                    aria-describedby="addon-wrapping">
+            </div>
+            <p></p>
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">
+                        <i class="fa fa-university" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <input type="number" class="form-control" id="num3" placeholder="Superficie total hotel" aria-label="num3"
+                    aria-describedby="addon-wrapping">
+            </div>
+            <div class="d-flex justify-content-md-around">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" id="boton1"  role="button">Crear</a>
+            </p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" id="boton2"  role="button">Borrar</a>
+            </p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" id="boton3"  role="button">Ver</a>
+            </p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" id="boton4"  role="button">Modificar</a>
+            </p>
+        </div class="d-flex flex-column">
+            <div class="d-print-none" id="demo"></div>
+            <div class="d-print-none" id="demo1"><p></div>
+            <div class="d-print-none" id="demo2"></div>
+            <div class="d-print-none" id="demo3"></div>
+
+        </div>
+
+    </div>
+    <script src="./functions.js"></script>
+    <script src="./class.js"></script>
+
+</body>
+
+</html>
+

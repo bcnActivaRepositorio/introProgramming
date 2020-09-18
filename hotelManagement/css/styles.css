@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    padding-top: 3em;
+    background-color: rgb(106, 130, 139) !important;
+    }
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        justify-content: center;
+  
+    }
+    .jumbotron{
+        width: 65%;
+        margin: 0 auto;
+    }
+    #boton1, #boton2, #boton3, #boton4 {
+        color: whitesmoke !important;
+        margin: 1rem 2rem 0 1rem;
+        
+    }
+   
+    #demo{
+
+        font-size: 125%;
+        color: #333;
+        padding: 0.5em 0.5em 0 0.5em;
+        border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        -moz-border-radius: 0.5em;
+        -ms-border-radius: 0.5em;
+        -o-border-radius: 0.5em;
+}
+    #demo1{
+
+        font-size: 125%;
+        color: #333;
+        padding: 0.5em 0.5em 0 0.5em;
+        border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        -moz-border-radius: 0.5em;
+        -ms-border-radius: 0.5em;
+        -o-border-radius: 0.5em;
+}

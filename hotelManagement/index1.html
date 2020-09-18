@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!--Icons-->
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+   
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        New Hotel
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="jumbotron">
+                    <h1 class="display-4">Hotels</h1>
+                    <p class="lead">Create an Hotel</p>
+                    <hr class="my-4">
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" id="word1" placeholder="Hotel's name" aria-label="word1"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <p></p>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <input type="number" class="form-control" id="num1" placeholder="How many rooms"
+                            aria-label="num1" aria-describedby="addon-wrapping">
+                    </div>
+                    <p></p>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <input type="number" class="form-control" id="num2" placeholder="Height building"
+                            aria-label="num2" aria-describedby="addon-wrapping">
+                    </div>
+                    <p></p>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fa fa-university" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <input type="number" class="form-control" id="num3" placeholder="Total m2 hotel"
+                            aria-label="num3" aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="d-flex justify-content-md-around">
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" id="boton1" role="button">New Hotel</a>
+                        </p>
+
+                    </div class="d-flex flex-column">
+                    <div class="d-print-none" id="demo"></div>
+                    <div class="d-print-none" id="demo1">
+                        <p>
+                    </div>
+                    <div class="d-print-none" id="demo2"></div>
+                    <div class="d-print-none" id="demo3"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                   <span id="boton5"> Update Hotel</span>
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="jumbotron">
+                <h1 class="display-4">Modify me</h1>
+                <p class="lead">Modify the items that require updating</p>
+                <hr class="my-4">
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="word2" placeholder="Hotel Name" aria-label="word1"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <p></p>
+                
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa fa-suitcase" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input type="number" class="form-control" id="num4" placeholder="How many rooms"
+                        aria-label="num1" aria-describedby="addon-wrapping">
+                </div>
+                <p></p>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa fa-suitcase" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input type="number" class="form-control" id="num5" placeholder="height of building"
+                        aria-label="num2" aria-describedby="addon-wrapping">
+                </div>
+                <p></p>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa fa-university" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input type="number" class="form-control" id="num6" placeholder="m2 of Building"
+                        aria-label="num3" aria-describedby="addon-wrapping">
+                </div>
+            </div>
+        </div>
+                <div class="d-flex justify-content-md-around">
+
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" id="boton4" role="button"
+                        data-toggle="collapse" data-target="#collapseFive"
+                    aria-expanded="true" aria-controls="collapseFive"
+                        >Modificar</a>
+                    </p>
+                </div class="d-flex flex-column">
+                <div class="d-print-none" id="demo4"></div>
+                <div class="d-print-none" id="demo5">
+                    <p>
+                </div>
+                <div class="d-print-none" id="demo6"></div>
+                <div class="d-print-none" id="demo7"></div>
+
+            </div>
+
+        <!-- </div> -->
+    </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    Check Hotel
+                </button>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="jumbotron">
+                <h1 class="display-4">Check on me</h1>
+                <p class="lead">Introduce the name of an hotel to check if it is in the List</p>
+                <hr class="my-4">
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="word3" placeholder="Looking for some specifics?" aria-label="word1"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <p></p>
+                <div class="d-flex justify-content-md-around">
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" id="boton3" role="button">Check Hotel</a>
+                    </p>
+
+                </div class="d-flex flex-column">
+                <div class="d-print-none" id="demo8"></div>
+                <div class="d-print-none" id="demo9">
+                    <p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    Delete Hotel
+                </button>
+            </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="jumbotron">
+                <h1 class="display-4">Delete</h1>
+                <p class="lead">Introduce the name of the hotel</p>
+                <hr class="my-4">
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="word5" placeholder="What Hotel would you like to retire?" aria-label="word1"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <p></p>
+
+                <div class="d-flex justify-content-md-around">
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" id="boton2" role="button">Delete</a>
+                    </p>
+
+                </div class="d-flex flex-column">
+                <div class="d-print-none" id="demo12"></div>
+                <div class="d-print-none" id="demo13">
+                    <p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+<script src="./class.js"></script>
+    <script src="./functions.js"></script>
+
+</body>
+
+</html>

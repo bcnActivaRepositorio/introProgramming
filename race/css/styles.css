@@ -1,0 +1,59 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    padding-top: 3rem;
+    background-color: rgb(106, 130, 139) !important;
+    background-image: url("../img/f1\ \(1\).jpg");
+    }
+    #fondo{
+        margin: 0 auto;
+        padding: 2.5rem 0 0 0;
+        background-color: #333;
+        opacity: 90%;
+        display: block;
+        z-index: -1;
+        position: static;
+        background-image: url("../img/f1\ \(1\).jpg");
+    }
+
+    #fila{
+        z-index: 10;
+    }
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        justify-content: center;
+    }
+    .jumbotron{
+        width: 65%;
+        margin: 0 auto;
+        background-image: url();
+    }
+    .btn {
+        color: whitesmoke !important;
+        margin: 1rem 2rem 0 1rem;
+        
+    }
+    #demo{
+
+        font-size: 125%;
+        color: #333;
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+}
+    #demo1{
+
+        font-size: 125%;
+        color: #333;
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5em;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+}
