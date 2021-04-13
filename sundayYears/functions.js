@@ -5,7 +5,6 @@ L’usuari introdueix un any i el programa diu si dia 1 de gener de l’any intr
  */
 
 const checkDay = () =>{
-
     //data
     let year = parseInt(document.getElementById('num1').value);
     let year1 = parseInt(document.getElementById('num2').value);
@@ -49,7 +48,12 @@ for ( i = year; i <= year1; i++){
 
 document.getElementById('demo1').innerHTML = text1;
 }
-
+function cleanData(){ 
+let numbers = document.querySelector(".myForms").value;
+console.log(numbers);
+numbers = 0;
+document.querySelector('.myText').innerHTML = " ";
+}
 /*************************DOCUMENTACION **********************/
 //https://www.w3schools.com/jsref/jsref_getday.asp
 
