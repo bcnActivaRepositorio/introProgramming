@@ -50,17 +50,38 @@ Es un poco liosa al principio, pero para programadores de cualquier lenguaje, un
 
 Muy útil en el proceso de aprendizaje
 
+* [Codewars](https://www.codewars.com/)
+
+Parece una locura al principio, pero es una gran fuente de ideas.
+
 Y hay cientos m&aacute;s, pero estas son las que yo m&acute;s utilizo
 
 
-#### Cervantes ayuda, y mucho.
+#### Cervantes ayuda ... y mucho.
 
 Muy bien, ya tenemos ese código en Inglés, guay...copy + paste y listo... Jooooollllll, nooolllll
 
-Esa es mi segunda parte, ahora ya se el método en Inglés 
+Esa es mi segunda parte, ahora ya sé el método en Inglés 
 
     arr.split('').map((element) => parseInt(element));
 
-Sabiendo el qué debo buscar, entonces si, castellano para acabar de entender lo que quiero implementar
+Pero si copiamos y pegamos sin más, es posible que no salga lo que pretendemos o buscamos.
+
+	strNum.split('').map((num) => parseInt(num));
+	
+o tal vez 
+
+	arr.map((num) => parseInt(num));
+	
+Normalmente en mi caso con la documentación en inglés tengo suficiente, pero la lengua materna siempre hace que todo sea más fácil.
+Una vez que ya se ha encontrado las funciones, métodos, clases, objetos, jSon... que necesitamos, podemos buscar la explicación en la 
+lengua en la que nos encontremos más a gusto
+
+#### Conclusiones
+
+Hay cientos, miles de recursos ahí fuera, yo sólo he contado una parte de los que utilizo. ¿Quién sabe? Quizás algún día me saque la carrera y entonces pueda aportar al 
+mundo IT todo lo que me ha dado. Mientras ese día llega, seguiremos echando mano de los potentes recursos que San Google nos proporciona.
+
+
 
 Espero que os ayude en vuestra búsqueda de información.
